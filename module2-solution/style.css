@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align:center;  
+    margin-top: 60px;
+    margin-bottom:80px;
+    font-size: 3em;
+}
+
+p{
+    padding: 20px;
+}
+
+.sectionHeader{
+    border: 1px solid black;
+    float: right;
+    padding-left:10%;
+    padding-right:10%;
+    
+}
+
+.sectionHeaderbeef{
+    border: 1px solid black;
+    float: right;
+    padding-left:10%;
+    padding-right:10%;
+    
+}
+
+
+
+
+.container{
+  background-color: #f1f1f1;
+  margin:  1%;
+  font-size:2em;
+  float: left;
+  width:30%;   
+  border: 1px solid black;
+  position:relative;
+ 
+}
+
+.containerA{
+    background-color: #f1f1f1;
+    margin:  1%;
+    font-size:2em;
+    float: left;
+    width:30%;   
+    border: 1px solid black;
+    position:relative;
+   
+  }
+
+
+body{
+   background-color: lavender;
+
+}
+
+
+
+
+.chicken{
+    background-color: rgb(214, 114, 223);
+    
+}
+
+.beef{
+    background-color: blueviolet;
+}
+
+.sushi{
+    background-color: rgb(65, 180, 84);
+}
+
+@media(max-width:767px){
+
+    .container, .containerA{
+        float:none;
+        width:auto;
+        margin:40px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .container{
+        width:48%;
+    }
+
+    .containerA{
+        width:98%;
+    }
+}
+
+
+
+
+
+
